@@ -9,12 +9,20 @@ A Python script that queries a [Red Hat CloudForms](https://www.redhat.com/en/te
 ## Requirements
 
 - Python 3
-- [requests](https://pypi.org/project/requests/)
-- [quickchart-python](https://pypi.org/project/quickchart-python/)
 
-Install the dependencies with:
+Create and activate a virtual environment, then install the dependencies:
 
 ```bash
+# Create the virtual environment
+python3 -m venv venv
+
+# Activate it
+# On Linux / macOS:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
+
+# Install dependencies
 pip install requests quickchart-python
 ```
 
